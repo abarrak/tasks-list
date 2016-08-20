@@ -7,7 +7,7 @@ Using [BackboneJS](http://backbonejs.org), modeled as in [Jeffrey Way's course](
 
 #### Backbone Resources
 * [Official Documentation.](http://backbonejs.org)
-* [Developing Backbone.js Applications By Addy Osmani.](https://addyosmani.com/backbone-fundamentals/#suites-specs-spies)
+* [Developing Backbone.js Applications By Addy Osmani.](https://addyosmani.com/backbone-fundamentals/)
 * [Hello Backbone.js](http://arturadib.com/hello-backbonejs/).
 * [Annotated Code](http://backbonejs.org/docs/backbone.html).
 * [Understanding MVC And MVP (For JavaScript And Backbone Developers).](https://addyosmani.com/blog/understanding-mvc-and-mvp-for-javascript-and-backbone-developers/)
