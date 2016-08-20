@@ -14,6 +14,6 @@ Using [BackboneJS](http://backbonejs.org), modeled as in [Jeffrey Way's course](
 
 
 #### Backbone Repositories.
-* [Yomen Backbone Generator.](https://github.com/yeoman/generator-backbone)
+* [Yeoman Backbone Generator.](https://github.com/yeoman/generator-backbone)
 * [Backbone Boilerplate(s).](https://github.com/addyosmani/backbone-boilerplates)
 * [Another Backbone Boilerplate.](https://github.com/tbranyen/backbone-boilerplate)
