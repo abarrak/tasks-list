@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tasks App</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+  <div id="container">
+    <h2>Tasks App</h2>
+    <hr>
+    <form action="" id="addTask">
+      <input type="text" name="title" placeholder="Title ..." ><br>
+      <input type="text" name="priority" placeholder="Priority ..."><br>
+      <input type="submit" name="submit" value="Add">
+    </form>
+    <hr><br>
+    <div id="tasks">
+      <p class="heading">
+        Task &amp; [Priority] <span class="lefty">&#10047;</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Single task template -->
+  <script type="text/template" id="tasksTemplate">
+    <p>
+      <a href="#show/<%= id %>"><%= title %></a>
+      <span class="priority">[<%= priority %>]</span>
+      <span class="lefty actions">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </span>
+    </p>
+    <br class="seperator">
+  </script>
+
+  <!-- JS files -->
+  <script src="lib/jquery.js"></script>
+  <script src="lib/underscore.js"></script>
+  <script src="lib/backbone.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
